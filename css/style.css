@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    scroll-behavior: smooth;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.699);
+    font-weight: 600;
+    transition: .3s;
+}
+/* ==============header code===================== */
+#header{
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+#header .logo{
+    width: 100px;
+}
+#header .heading-text{
+font-family: sans-serif;
+margin-top: 140px;
+margin-bottom: 100px;
+}
+#header .heading-text h3{
+    font-size: 34px;
+}
+.squere{
+    height: 12px;
+    width: 12px;
+    background: #f67c92;
+    display: inline-block;
+    margin: 15px 0px;
+}
+
+.common-btn{
+    padding: 15px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+}
+ .common-btn:hover{
+    background: #f67c92;
+    color: #fff;
+}
+.common-btn:focus{
+    outline:none;
+}
+p{
+    font-size: 15px;
+    color: #777;
+}
+#header .heading-text button{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.line-sqer{
+    line-height: 7px;
+}
+.line1{
+    width: 17px;
+    height: 17px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line2{
+    width: 80px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line3{
+    width: 60px;
+    height: 1px;
+    background: #f67c92;
+    display: inline-block;
+}
+/* ==========slide nav=================== */
+
+#sidenav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background: #f67c92;
+    top: 0;
+    right: 0px;
+    z-index: 2;
+    display: none;
+}
+nav ul li{
+    margin: 50px 20px;
+}
+nav ul li a{
+    color: #fff;
+}
+
+.manu-btn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* =============about======================== */
+
+#about, #offer{
+    padding: 100px 0;
+}
+
+#about .about-text, #offer .offer-text{
+    padding: 15px 10px;
+    text-align: right;
+}
+
+#about .about-text h2, #offer .offer-text h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+#about .about-text p,, #offer .offer-text p{
+    padding-bottom: 20px;
+}
+
+#about .about-text h3{
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+#about .about-text span{
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+/* ==============features=================== */
+#features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#features .features-box{
+    text-align: center;
+}
+.features-box img{
+    width: 100px;
+}
+.features-box h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.features-btn{
+    margin: 80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.features-btn .line-sqer{
+    text-align: right;
+    margin-right: 25px;
+    display:inline-block
+}
+
+/* ===========courses===================== */
+#courses{   
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.course-text{
+    padding: 5px 15px;
+}
+.course-text.common-btn{
+    margin: 10px 0;
+}
+.course-text .line-sqer{
+margin: 25px 0px;
+}
+
+
+
+
+
+/* ======================offer==================== */
+
+#offer .common-btn{
+    margin: 20px 0;
+}
+
+/* ===========contact==================== */
+#contact{
+    margin:50px 0px;
+}
+#contact .col-md-6{
+    padding: 7px 15px;
+}
+#contact .text-center h2{
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contact .text-center input{
+    width: 80%;
+    padding: 5px 15px;
+    border: 3px solid #f67c92;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#contact .text-center input:focus{
+    outline: none;
+}
+
+#contact .text-center button{
+    margin: 20px 0px;
+    width: 38%;
+    margin-right: 10px;
+}
+/* ==============footer===================== */
+
+footer{
+    background: black;
+    color:#8a8a8a;
+    padding: 35px 0px;
+ 
+ }
+ footer p{
+     color: #8a8a88;
+ }
+ footer h3{
+     color: white;
+     margin-bottom: 10px;
+ }
+ footer .img img{
+     width: 180px;
+     margin-bottom: 15px;
+ }
+ .app-logo{
+    margin-top: 20px;
+ }
+ .app-logo img{
+     width: 119px;
+     margin-right: 6px;
+ }
+ 
+ 
+ 
